@@ -1,3 +1,109 @@
+:root {
+--brand-font: "Roboto", sans-serif;
+--sub-brand-font: "Raleway", sans-serif;
+--main-brand-color: #4d5ae5;
+--sub-brand-color: #2E2F42;
+--text-color:#434455;
+--background-color: #F4F4FD;
+--main-background-color:#E5E5E5;
+}
+
 body {
-    background-color: rgb(134, 134, 161);
+    font-family: "roboto", sans-serif;
+    background: #ffffff;
+    color: #434455;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.header {
+    text-decoration: none;
+}
+
+.link-logo {
+font-family: 'Raleway';
+font-size: 18px;
+line-height: 21px;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logo-text {
+    color: #2E2F42;
+}
+
+.header-item-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.header-item-link:hover {
+    color: #4D5AE5;
+}
+.header-item-link:focus {
+    color: #4D5AE5;
+}
+.contacts {
+
+font-family: 'roboto';
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+text-decoration: none;
+color: #434455;
+
+}
+.contacts:hover {
+    color: #4D5AE5;
+}
+.contacts:focus {
+    color: #4D5AE5;
+}
+
+.main-title {
+    font-family: "roboto";
+}
+ /* --Hero image--*/
+
+ .main-section {
+    background-color: #2E2F42;
+    color: white;
+    font-family: 'roboto';
+    text-align: center;
+ }
+ .main-btn {
+    color: #ffffff;
+    background: #4D5AE5;
+    border-radius: 4px;
+ }
+.main-btn:hover {
+    background: #404BBF;
+
+}
+/*--section2--*/
+
+.secction-title {
+    font-size: 36px;
+
+}
+/*--section3--*/
+.section-team {
+    background-color: #F4F4FD ;
+}
+/*--Footer--*/
+.footer {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD;
+}
+.logo-footer-text {
+    color: #F4F4FD;
 }

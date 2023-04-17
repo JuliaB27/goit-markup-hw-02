@@ -6,29 +6,47 @@
 --text-color:#434455;
 --background-color: #F4F4FD;
 --main-background-color:#E5E5E5;
---text-decoration: none;
+--button-color: #4d5ae5;
+
 }
 
 body {
-    font-family: "roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     background: #ffffff;
     color: #434455;
     font-style: normal;
-
+    text-decoration: none;
+    list-style: none;
+    
 }
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
 /*header*/
 .header {
-    text-decoration: none;
+    
     font-weight: 800; 
     line-height: 1.17;
     letter-spacing: 0.03em;
-       list-style: none;
+    list-style: none;
 }
 
 .link-logo {
 font-family: 'Raleway';
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 text-transform: uppercase;
 color: #4D5AE5;
 }
@@ -38,10 +56,10 @@ color: #4D5AE5;
 }
 
 .header-item-link {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
@@ -49,10 +67,10 @@ color: #4D5AE5;
 }
 
 .header-item-link:hover {
-    color: #4D5AE5;
+    color: #404bbf; 
 }
 .header-item-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .contacts {
 
@@ -65,14 +83,19 @@ color: #434455;
 
 }
 .contacts:hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .contacts:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
-
+.main {
+    list-style: none;
+}
 .main-title {
     font-family: "roboto";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
 }
  /* --Hero image--*/
 
@@ -81,33 +104,126 @@ color: #434455;
     color: white;
     font-family: 'roboto';
     text-align: center;
- }
+}
+
  .main-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #ffffff;
     background: #4D5AE5;
+    cursor: pointer;
     border-radius: 4px;
  }
+
 .main-btn:hover {
     background: #404BBF;
+}
+
+.main-btn:focus {
+    background: #404BBF;
+}
+
+/* SECTION1*/
+.section-list {
+    list-style: none;
+    
+}
+
+.section-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    
+}
+
+.section-item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    color: #434455;
 
 }
 /*--section2--*/
 
-.secction-title {
-    font-size: 36px;
 
-}
-/*--section3--*/
+/*--section-TEAM--*/
 .section-team {
+
     background-color: #F4F4FD ;
 }
+.section-team-item {
+    background-color: #ffffff;
+}
+
+.section-team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
 /*--Footer--*/
 .footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     background-color: #2E2F42;
+    text-decoration: none;
 }
+.link-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
 .footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 .logo-footer-text {
+    
     color: #F4F4FD;
+}
+
+
+
+/*-----------PORTFOLIO-------------*/
+button {
+     color: var(--button-color);
+     background-color: var(--background-color);
+     cursor: pointer;
+}
+
+.section-item-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.section-item-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }

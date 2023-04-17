@@ -259,16 +259,22 @@ color: #434455;
 .header-item-link:focus {
     color: #404bbf;
 }
+.header-address-list {
+
+    list-style: none;
+
+}
 .contacts {
 
-font-family: 'roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-font-style: normal;
-text-decoration: none;
-color: #434455;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+    
+    color: #434455;
 
 }
 

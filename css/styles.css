@@ -185,6 +185,11 @@ color: #434455;
     background-color: #ffffff;
 }
 
+.section-title {
+    line-height: 1.11;
+    text-align: center;
+}
+
 .section-team-caption {
    
     font-style: normal;
@@ -337,7 +342,7 @@ button {
    background-color: #404BBF;
 }
 
-.button:focus {
+.section-item-btn:focus {
    color: #FFFFFF;
    background-color: #404BBF;
 }
@@ -352,7 +357,11 @@ button {
 
 /*---IMAGES---*/
 
-
+.section-list  .link {
+     list-style: none;
+    text-decoration: none;
+}
+ 
 .img-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -365,6 +374,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 
 
 /*--Footer--*/

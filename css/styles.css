@@ -34,9 +34,9 @@ body {
     color: #2E2F42;
 }
 
-/*header*/
+/*---header---*/
 .header {
-    
+    font-family: "Raleway", sans-serif;
     font-weight: 800; 
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -44,12 +44,12 @@ body {
 }
 
 .link-logo {
-font-family: 'Raleway' sans-serif;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
+    font-family: 'Raleway' sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 .link {
@@ -102,6 +102,7 @@ color: #434455;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
  /* --Hero image--*/
 
@@ -113,6 +114,7 @@ color: #434455;
 }
 
  .main-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -155,6 +157,7 @@ color: #434455;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 
 }
@@ -173,7 +176,9 @@ color: #434455;
 .section-team-name{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -326,3 +331,30 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*--Footer--*/
+.footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    background-color: #2E2F42;
+    text-decoration: none;
+}
+.link-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.logo-footer-text {
+    
+    color: #F4F4FD;}

@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     background: #ffffff;
     color: #434455;
     font-style: normal;
@@ -24,7 +24,7 @@ body {
     text-decoration: none;
 }
 .title {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -44,7 +44,7 @@ body {
 }
 
 .link-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -61,7 +61,7 @@ body {
 }
 
 .header-item-link {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -80,7 +80,7 @@ body {
 }
 .contacts {
 
-font-family: 'roboto';
+font-family: "roboto";
 font-weight: 400;
 font-size: 16px;
 font-style: normal;
@@ -140,7 +140,7 @@ color: #434455;
 }
 
 .section-item-title {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -151,7 +151,7 @@ color: #434455;
 }
 
 .section-item-text {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -173,9 +173,10 @@ color: #434455;
     background-color: #ffffff;
 }
 
-.section-team-name{
+.section-team-name {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.11;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
@@ -193,20 +194,21 @@ color: #434455;
     text-decoration: none;
 }
 .link-logo {
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
 }
 
 .footer-text {
-    font-family: 'Roboto';
+    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
 .logo-footer-text {
     
     color: #F4F4FD;
@@ -341,7 +343,7 @@ button {
     text-decoration: none;
 }
 .link-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;

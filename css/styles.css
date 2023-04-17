@@ -163,14 +163,17 @@ color: #434455;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.11;
-    letter-spacing: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 
 }
 
-
+/*---Section2---*/
+.section-pic-title {
+    line-height: 1.11;
+    text-align: center;
+}
 
 /*--section-TEAM--*/
 .section-team {
@@ -182,15 +185,29 @@ color: #434455;
     background-color: #ffffff;
 }
 
-.section-team-text {
+.section-team-caption {
+   
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
+.section-team-text {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
 
 /*--Footer--*/
 .footer {

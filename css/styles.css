@@ -158,7 +158,7 @@ color: #434455;
     color: #434455;
 
 }
-/*--section2--*/
+
 
 
 /*--section-TEAM--*/
@@ -211,6 +211,8 @@ color: #434455;
 
 /*-----------PORTFOLIO-------------*/
 
+/*---logo---*/
+
 .link-logo {
     font-family: 'Raleway' sans-serif;
     font-weight: 800; 
@@ -229,7 +231,7 @@ color: #434455;
         color: #2E2F42;
 }
 
-
+/*---Header---*/
 
 .header {
     
@@ -269,6 +271,8 @@ text-decoration: none;
 color: #434455;
 
 }
+
+
 .contacts:hover {
     color: #404bbf;
 }
@@ -279,6 +283,32 @@ color: #434455;
     text-decoration: none;
 }
 
+/*---BUTTON---*/
+button {
+    color: var(--button-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+
+.section-item-btn:hover {
+   color: #FFFFFF;
+   background-color: #404BBF;
+}
+
+.button:focus {
+   color: #FFFFFF;
+   background-color: #404BBF;
+}
+
+.section-item-btn {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+}
+
+/*---Images---*/
 .img-subtitle {
     font-weight: 500;
     font-size: 20px;

@@ -44,11 +44,16 @@ body {
 }
 
 .link-logo {
-font-family: 'Raleway';
+font-family: 'Raleway' sans-serif;
 font-size: 18px;
 line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .logo-text {
@@ -57,6 +62,7 @@ color: #4D5AE5;
 
 .header-item-link {
     font-family: 'Roboto';
+    font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -204,26 +210,84 @@ color: #434455;
 
 
 /*-----------PORTFOLIO-------------*/
-button {
-     color: var(--button-color);
-     background-color: var(--background-color);
-     cursor: pointer;
+
+.link-logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800; 
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    }
+    
+    .link {
+        text-decoration: none;
+    }
+    
+    .logo-text {
+        color: #2E2F42;
 }
 
-.section-item-btn:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+
+
+.header {
+    
+    font-weight: 800; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    list-style: none;
 }
 
-.button:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-
-.section-item-btn {
-    font-family: "Roboto", sans-serif;
+.header-item-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.header-item-link:hover {
+    color: #404bbf; 
+}
+.header-item-link:focus {
+    color: #404bbf;
+}
+.contacts {
+
+font-family: 'roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-style: normal;
+text-decoration: none;
+color: #434455;
+
+}
+.contacts:hover {
+    color: #404bbf;
+}
+.contacts:focus {
+    color: #404bbf;
+}
+.link {
+    text-decoration: none;
+}
+
+.img-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.img-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
+    color: #434455;
 }

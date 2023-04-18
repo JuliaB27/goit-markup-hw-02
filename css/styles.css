@@ -8,14 +8,12 @@
 --main-background-color:#E5E5E5;
 --button-color: #4d5ae5;
 --white-background-color: #ffffff
-
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color: var(--white-background-color);
-    
     }
 
 .title {
@@ -39,9 +37,6 @@ body {
     color: #2E2F42;
 }
 
-
-
-
 .contacts {
     font-family: "roboto";
     font-weight: 400;
@@ -62,6 +57,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
  /* --Hero image--*/
 
  .main-section {
@@ -115,6 +111,7 @@ body {
 }
 
 /*---Section2---*/
+
 .section-pic-title {
     line-height: 1.11;
     text-align: center;
@@ -156,8 +153,6 @@ body {
     color: #434455;
 }
 
-
-
 /*--Footer--*/
 
 .logo-footer-text {
@@ -175,7 +170,7 @@ body {
     font-weight: 800;
     letter-spacing: 0.03em;
     color: #4D5AE5;
-    }
+}
     
     .logo-text {
         color: #2E2F42;

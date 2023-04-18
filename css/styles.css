@@ -13,8 +13,9 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: (var--text-color);
+    color: var(--text-color);
     background-color: var(--white-background-color);
+    
     }
 
 .title {
@@ -131,6 +132,8 @@ body {
 
 .section-title {
     line-height: 1.11;
+    text-align: center;
+    color:#2e2f42;
 }
 
 .section-team-caption {
@@ -140,6 +143,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    
 }
 
 .section-team-text {

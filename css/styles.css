@@ -38,7 +38,6 @@ body {
 }
 
 .contacts {
-    font-family: "roboto";
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
@@ -51,8 +50,7 @@ body {
 }
  
 .main-title {
-    font-family: "roboto";
-    font-weight: 700;
+   
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -68,8 +66,7 @@ body {
 }
 
  .main-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -79,13 +76,11 @@ body {
     border-radius: 4px;
  }
 
-.main-btn:hover {
+.main-btn:hover, .main-btn:focus {
     background: #404BBF;
 }
 
-.main-btn:focus {
-    background: #404BBF;
-}
+
 
 /* SECTION1*/
 
@@ -100,7 +95,6 @@ body {
 }
 
 .section-item-text {
-    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -167,7 +161,7 @@ body {
 
 .link-logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    
     letter-spacing: 0.03em;
     color: #4D5AE5;
 }
@@ -179,7 +173,6 @@ body {
 /*---Header---*/
 
 .header-item-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -199,8 +192,6 @@ body {
 
 
 .contacts {
-
-    font-family: 'roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -233,8 +224,6 @@ button {
 
 
 .section-item-btn {
-   font-family: "Roboto", sans-serif;
-   font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
@@ -269,7 +258,6 @@ button {
 
 .link-logo {
     font-size: 18px;
-    line-height: 1.17;
     text-transform: uppercase;
 }
 

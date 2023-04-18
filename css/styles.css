@@ -12,19 +12,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    
     }
 
 .title {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
 }
 
 .list {
@@ -69,9 +63,8 @@ body {
 
  .main-section {
     background-color: #2E2F42;
-    color: white;
-    font-family: 'roboto';
-    text-align: center;
+    color:#FFFFFF;
+
 }
 
  .main-btn {
@@ -95,17 +88,12 @@ body {
 }
 
 /* SECTION1*/
-.section-list {
-    list-style: none;
-    
-}
+
 
 .section-item-title {
-    font-family: "Roboto";
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     
@@ -125,7 +113,6 @@ body {
 /*---Section2---*/
 .section-pic-title {
     line-height: 1.11;
-    text-align: center;
 }
 
 /*--section-TEAM--*/
@@ -134,22 +121,18 @@ body {
     background-color: #F4F4FD ;
 }
 .section-team-item {
-    text-align: center;
     background-color: #ffffff;
 }
 
 .section-title {
     line-height: 1.11;
-    text-align: center;
 }
 
 .section-team-caption {
-   
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -160,7 +143,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -168,15 +150,6 @@ body {
 
 
 /*--Footer--*/
-
-.footer-text {
-    font-family: "Roboto" sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
 
 .logo-footer-text {
     color: #F4F4FD;
@@ -249,15 +222,11 @@ button {
     cursor: pointer;
 }
 
-.section-item-btn:hover {
+.section-item-btn:hover, .section-item-btn:focus {
    color: #FFFFFF;
    background-color: #404BBF;
 }
 
-.section-item-btn:focus {
-   color: #FFFFFF;
-   background-color: #404BBF;
-}
 
 .section-item-btn {
    font-family: "Roboto", sans-serif;
@@ -269,20 +238,15 @@ button {
 
 /*---IMAGES---*/
 
-.section-list  .link {
-     list-style: none;
-    text-decoration: none;
-}
+
  
 .img-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42
 }
 .img-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -294,10 +258,6 @@ button {
 
 
 .footer {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     background-color: #2E2F42;
     text-decoration: none;
 }
@@ -309,13 +269,8 @@ button {
 }
 
 .footer-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 16px;
+    
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.logo-footer-text {
-    
-    color: #F4F4FD;}

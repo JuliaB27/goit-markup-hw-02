@@ -45,17 +45,14 @@ body {
     font-style: normal;
     text-decoration: none;
     color: #434455;
-
 }
 .contacts:hover, .contacts:focus {
     color: #404bbf;
 }
 
-
  /* --Hero image--*/
   
-.main-title {
-   
+.main-title {  
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -65,7 +62,6 @@ body {
     text-align: center;
     background-color: #2E2F42;
     color:#FFFFFF;
-
 }
 
  .main-btn {
@@ -84,18 +80,14 @@ body {
     background: #404BBF;
 }
 
-
-
 /* SECTION1*/
-
 
 .section-item-title {
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    
+    color: #2E2F42;   
 }
 
 .section-item-text {
@@ -105,7 +97,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 /*---Section2---*/
@@ -117,10 +108,11 @@ body {
 }
 
 /*--section-TEAM--*/
-.section-team {
 
+.section-team {
     background-color: #F4F4FD ;
 }
+
 .section-team-item {
     background-color: #ffffff;
 }
@@ -137,12 +129,10 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    
+    color: #2E2F42;    
 }
 
 .section-team-text {
-    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -157,15 +147,16 @@ body {
     color: #F4F4FD;
 }
 
-
-
 /*-----------PORTFOLIO-------------*/
 
 /*---logo---*/
 
 .link-logo {
     font-family: "Raleway", sans-serif;
-    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4D5AE5;
 }
@@ -194,7 +185,6 @@ body {
     list-style: none;
 }
 
-
 .contacts {
     font-weight: 400;
     font-size: 16px;
@@ -203,7 +193,6 @@ body {
     font-style: normal;
     text-decoration: none;
     color: #434455;
-
 }
 
 .contacts:hover, .contacts:focus {
@@ -215,6 +204,7 @@ body {
 }
 
 /*---BUTTON---*/
+
 button {
     color: var(--button-color);
     background-color: var(--background-color);
@@ -226,7 +216,6 @@ button {
    background-color: #404BBF;
 }
 
-
 .section-item-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -236,8 +225,6 @@ button {
 }
 
 /*---IMAGES---*/
-
-
  
 .img-subtitle {
     font-weight: 500;
@@ -252,21 +239,11 @@ button {
     color: #434455;
 }
 
-
-
 /*--Footer--*/
-
 
 .footer {
     background-color: #2E2F42;
     text-decoration: none;
-}
-
-.link-logo {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    text-transform: uppercase;
 }
 
 .footer-text {
